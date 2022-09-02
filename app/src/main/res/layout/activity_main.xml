@@ -8,10 +8,12 @@
 
     <com.huawei.hms.maps.MapView
         android:id="@+id/mapview_mapviewdemo"
-        android:layout_width="0dp"
-        android:layout_height="392dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="403dp"
+        android:layout_height="533dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
